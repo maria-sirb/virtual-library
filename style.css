@@ -84,7 +84,7 @@ header{
     top:10%;
     left:35%;
     z-index: 5;
-    overflow: scroll;
+    overflow:auto;
 }
 
 .form-top{
