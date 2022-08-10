@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Library</title>
+    <link rel = "stylesheet" href = "./style.css">
+    <script src = "./script.js" defer></script>
+</head>
+<body>
+    <div id = "hidden-content" class = "hidden">
+        <div class = "background-form"></div>
+        <form id = "new-book-form" class = "form" novalidate>
+            <div class = "form-top">
+        
+                <h2>Add a new book</h2>
+                <button class = "close-button-form" type = "button">
+                    <svg viewBox = "0 0 24 24">
+                        <path d = "M20 6.91L17.09 4L12 9.09L6.91 4L4 6.91L9.09 12L4 17.09L6.91 20L12 14.91L17.09 20L20 17.09L14.91 12L20 6.91Z"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class = "field">
+                <label for = "title">Title </label>
+                <input id = "title" type = "text" name = "title" required>
+            </div>
+            <div class = "field">
+                <label for = "author">Author </label>
+                <input id = "author" type = "text" name = "author" required>
+            </div>
+            <div class = "field">
+                <label for = "pages">Number of Pages </label>
+                <input id = "pages" type = "number" name ="pages" required>
+            </div>
+            <div>
+                <p>Have you read it?</p>
+                <input id = "yes" type = "radio" name ="yesNo" value = "read" checked>
+                    <label for = "Yes">Yes</label>
+                 <input  id = "no" type = "radio"  name = "yesNo" value = "not read">
+                    <label for = "No">No</label>
+            </div>
+            <button class = "submit-btn" type = "submit">Add</button>
+        
+        </form>
+    </div>
+    <header><h1>My Virtual Library</h1></header>
+    <img class = "plant-icon" src = "images/plant.png">
+    <main>
+        
+        <button type = "button" class = "add-btn">
+            <svg class ="add-icon" viewBox="0 0 24 24">
+                <path d="M20 14H14V20H10V14H4V10H10V4H14V10H20V14Z" />
+            </svg>
+        </button>
+        <div class = "container">
+        </div>
+    </main>
+</body>
+</html>
