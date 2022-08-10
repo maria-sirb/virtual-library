@@ -259,6 +259,11 @@ background-color:var(--accent-color);
         top:2%;
         left:3%;
         font-size: 0.9rem;
+        gap: 3%;
+    }
+    .form-top h2{
+
+        font-size: 1.2rem;
     }
     .submit-btn{
         height: 10%;
