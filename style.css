@@ -84,6 +84,7 @@ header{
     top:10%;
     left:35%;
     z-index: 5;
+    overflow: scroll;
 }
 
 .form-top{
@@ -260,6 +261,7 @@ background-color:var(--accent-color);
         left:3%;
         font-size: 0.9rem;
         gap: 3%;
+       
     }
     .form-top h2{
 
