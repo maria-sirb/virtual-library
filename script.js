@@ -4,10 +4,7 @@ function Book(title, author, pages, status)
     this.author = author;
     this.pages = pages;
     this.status = status;
-    /*this.getInfo = function(){
-
-        return `${title} by ${author}, ${pages} pages, ${status}`;
-    };*/
+    
 }
 Book.prototype.getInfo = function(){
 
@@ -91,11 +88,11 @@ function addBookToLibrary(book)
 }
 let myLibrary = [];
 
-let myBook = new Book("Fahrenheit 451", "Ray Bradbury", "300", "read");
+/*let myBook = new Book("Fahrenheit 451", "Ray Bradbury", "300", "read");
 console.log(myBook.getInfo());
 for(let i = 0; i <= 5; i++)
    addBookToLibrary(myBook);
-console.log(myLibrary);
+console.log(myLibrary);*/
 const main = document.querySelector('main');
 
 //add functionality to the add button: display form
