@@ -277,6 +277,7 @@ background-color:var(--accent-color);
 .status-button-not-read,
 .submit-btn{
     width: 50%;
+    font-size: 1rem;
 }
     
 }
