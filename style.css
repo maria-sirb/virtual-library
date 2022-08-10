@@ -269,6 +269,10 @@ background-color:var(--accent-color);
         height: 2rem;
         width: 2rem;
     }
+    .card{
+        height: 350px;
+        font-size: 1rem;
+    }
     .submit-btn{
         height: 10%;
         width: 60%;
