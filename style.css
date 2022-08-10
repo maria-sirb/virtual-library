@@ -265,9 +265,18 @@ background-color:var(--accent-color);
 
         font-size: 1.2rem;
     }
+    .close-button-form>svg{
+        height: 2rem;
+        width: 2rem;
+    }
     .submit-btn{
         height: 10%;
         width: 60%;
     }
+    .status-button-read,
+.status-button-not-read,
+.submit-btn{
+    width: 50%;
+}
     
 }
