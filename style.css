@@ -258,6 +258,7 @@ background-color:var(--accent-color);
         position:fixed;
         top:2%;
         left:3%;
+        font-size: 0.9rem;
     }
     .submit-btn{
         height: 10%;
